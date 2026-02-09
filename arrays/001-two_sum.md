@@ -11,7 +11,7 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 ## Approach
 ## Approach
 This solution uses a brute-force approach with two nested loops.
-For each element in the array, it checks every other element to see
+For each element in the list, it checks every other element to see
 if their sum equals the target value, while ensuring the same index
 is not used twice.
 
